@@ -121,6 +121,7 @@ class Calculator_class {
                case "CLR":
                    calculator_instance.clear_calculation_result();
                    break;
+                   // clear needs to be before your while so that you aren't prompted to enter your first and second number
 
                case"X":
                    break;
